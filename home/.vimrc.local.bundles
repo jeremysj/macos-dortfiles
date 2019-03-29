@@ -1,0 +1,2 @@
+Plug 'ekalinin/Dockerfile.vim'
+Plug 'flazz/vim-colorschemes'
