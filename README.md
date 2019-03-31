@@ -15,6 +15,7 @@ That's it.
 One more thing.
 You want to push back to the repo? You'll need to remember to do this:
 ```
+homeshick cd dortfiles
 git remote set-url origin git@github.com:jeremysj/dortfiles.git
 ```
 
