@@ -31,6 +31,8 @@ fi
 # User specific environment
 PATH="$HOME/.local/bin:$HOME/bin:$PATH"
 export PATH
+
+# this is more useful than I expected
 eval $(thefuck --alias)
 
 # bring in the cruft!
@@ -41,6 +43,14 @@ for file in ~/.{aliases,functions,path,dockerfunc,extra,exports}; do
 done
 unset file
 
+# let aliases run with sudo
+alias sudo='sudo '
+
+# make readonly vim not suck
 alias view='vim -R'
 
+# lazy way to get colorized man pages - implies you have `most` installed ofc
+export MANPAGER="most"
+
+# homeshick
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
