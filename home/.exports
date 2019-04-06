@@ -19,7 +19,7 @@ export MANPAGER="less -X";
 
 export DBUS_SESSION_BUS_ADDRESS
 DBUS_SESSION_BUS_ADDRESS=unix:path=/var/run/user/$(id -u)/bus;
-export VAGRANT_DEFAULT_PROVIDER=libvirt
+#export VAGRANT_DEFAULT_PROVIDER=libvirt
 
 # hidpi for gtk apps
 #export GDK_SCALE=2
