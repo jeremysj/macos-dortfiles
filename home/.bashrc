@@ -1,6 +1,9 @@
 # .bashrc
 [[ $- = *i* ]] && source ~/liquidprompt/liquidprompt
 
+# keychain
+eval `keychain --eval id_rsa`
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
