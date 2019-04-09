@@ -4,11 +4,11 @@
 ```
 git clone git://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick
 printf '\nsource "$HOME/.homesick/repos/homeshick/homeshick.sh"' >> $HOME/.bashrc
-$HOME/.homesick/repos/homeshick/bin/homeshick clone jeremysj/dortfiles
+$HOME/.homesick/repos/homeshick/bin/homeshick clone jeremysj/macos-dortfiles
 ```
 
 If you want to clobber **all** your settings run:
-`$HOME/.homesick/repos/homeshick/bin/homeshick clone -f jeremysj/dortfiles`
+`$HOME/.homesick/repos/homeshick/bin/homeshick clone -f jeremysj/macos-dortfiles`
 
 That's it.
 
@@ -16,7 +16,7 @@ One more thing.
 You want to push back to the repo? You'll need to remember to do this:
 ```
 homeshick cd dortfiles
-git remote set-url origin git@github.com:jeremysj/dortfiles.git
+git remote set-url origin git@github.com:jeremysj/macos-dortfiles.git
 ```
 
 Show a little class and verify before you `git push`
@@ -25,14 +25,6 @@ git remote -v
 ```
 
 ### What's in this stupid repo?
-
-### .config
-`.config` contains `sway`, `terminator` and `liquidprompt` configs. The `sway` config is likely useless to anyone **not** on a HiDPI laptop with a terrible low-res monitor attached.
-
-The `terminator` config has Monokai (vivid I think?) as the default and gets rid of the ugly titlebar. It assumes you have the lovely [Hack](https://github.com/source-foundry/Hack) font installed.
-
-### .fonts
-Self explanatory. I _have_ found out that one should stop using `.fonts` and move to `.local/share/fonts` simply because it's better. I expect my life to improve immeasurably when that task is completed. See [this nail biter](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html) for the full story.
 
 ### .irssi
 You guessed it, some basic `irssi` stuff.
