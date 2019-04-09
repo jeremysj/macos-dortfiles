@@ -49,8 +49,5 @@ alias sudo='sudo '
 # make readonly vim not suck
 alias view='vim -R'
 
-# lazy way to get colorized man pages - implies you have `most` installed ofc
-export MANPAGER="most"
-
 # homeshick
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
