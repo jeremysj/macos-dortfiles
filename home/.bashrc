@@ -49,5 +49,8 @@ alias sudo='sudo '
 # make readonly vim not suck
 alias view='vim -R'
 
+# colors in `ls`
+alias ls='ls -G'
+
 # homeshick
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
