@@ -18,13 +18,15 @@ export LANG="en_US.UTF-8";
 export LC_ALL="en_US.UTF-8";
 
 # Don’t clear the screen after quitting a manual page
-export MANPAGER="less -X";
+export MANPAGER="most";
 
-export DBUS_SESSION_BUS_ADDRESS
-DBUS_SESSION_BUS_ADDRESS=unix:path=/var/run/user/$(id -u)/bus;
+#export DBUS_SESSION_BUS_ADDRESS
+#DBUS_SESSION_BUS_ADDRESS=unix:path=/var/run/user/$(id -u)/bus;
 #export VAGRANT_DEFAULT_PROVIDER=libvirt
 
 export MANPAGER=most
+
+
 
 # hidpi for gtk apps
 #export GDK_SCALE=2
