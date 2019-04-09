@@ -52,5 +52,8 @@ alias view='vim -R'
 # colors in `ls`
 alias ls='ls -G'
 
+# give me the redhat ll
+alias ll='ls -lG'
+
 # homeshick
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
